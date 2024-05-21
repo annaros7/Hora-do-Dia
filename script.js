@@ -5,10 +5,6 @@ var min = agora.getMinutes();
 var msg = document.querySelector('div#hora');
 var img = document.querySelector('div#img');
 
-/*var imgM = '<img src="img/manha.jpeg" alt="manha">'
-var imgT = '<img src="img/tarde.jpg" alt="tarde">'
-var imgN = '<img src="img/noite.jpg" alt="noite">'*/
-
         if (hora < 12)
             {
                 document.body.style.background = 'rgb(86, 193, 255)'
